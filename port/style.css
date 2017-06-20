@@ -30,7 +30,7 @@ a{
   padding-right: 1em;
   margin-left: 1em;
   margin-right: 1em;
-  margin-bottom: .5em;
+  margin-bottom: 5em;
   display: inline-block;
   border-bottom: 1px solid gray;
 
@@ -39,7 +39,7 @@ a{
 li{
   display: block;
   margin-top: 5em;
-  margin-left: -25em;
+  margin-left: -20em;
 
 }
 
@@ -75,8 +75,11 @@ li{
   color: white;
 }
 
-#intro h1{
-  top: -5em;
-  font-size: 500%;
+.typing, h1{
+  font-size: 400%;
   font-weight: lighter;
+}
+
+h2{
+  display: inline-flex;
 }
