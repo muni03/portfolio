@@ -33,7 +33,12 @@ a{
   margin-bottom: 5em;
   display: inline-block;
   border-bottom: 1px solid gray;
+  font-size: 125%;
+}
 
+a:hover{
+  background-color: gray;
+  color: black;
 }
 
 li{
@@ -75,11 +80,42 @@ li{
   color: white;
 }
 
+#work{
+  background-color: gray;
+}
+
+#about{
+  background-color: #334238;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+.container{
+  display: flex;
+  color: white;
+  flex-direction: row;
+  font-size: 125%;
+  flex-wrap: wrap;
+
+}
+.card{
+  flex-grow: 1;
+  padding: 2em;
+}
+
 .typing, h1{
   font-size: 400%;
   font-weight: lighter;
 }
 
 h2{
-  display: inline-flex;
+  display: inline;
+}
+
+.sectionTitle{
+  color: white;
+  font-size: 300%;
+  text-align: center;
 }
