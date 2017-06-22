@@ -11,18 +11,27 @@ body{
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px){
   #topNav,#burgerMenu{
     visibility: hidden;
   }
 }
 
-@media screen and (min-width: 601px){
+@media screen and (min-width: 651px){
   #burger,#burgerMenu{
     visibility: hidden;
   }
+
+
 }
 
+img{
+  border-radius: 5%;
+  border: .5em solid #334238;
+  display: flex;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6), 0 8px 10px 0 rgba(0, 0, 0, 0.69);
+}
 a{
   text-decoration: none;
   color: white;
@@ -81,28 +90,60 @@ li{
 }
 
 #work{
-  background-color: gray;
+  background-color: rgb(55,58,55);
+  box-shadow: 1px 1px 20px 3px rgba(0, 0, 0, 0.6) inset;
 }
 
 #about{
   background-color: #334238;
 }
 
+#contact{
+  background-color: black;
+  color: white;
+}
+
 h1{
   text-align: center;
   color: white;
 }
-.container{
+#about .container{
   display: flex;
   color: white;
   flex-direction: row;
   font-size: 125%;
   flex-wrap: wrap;
-
 }
-.card{
+
+#about .card{
   flex-grow: 1;
   padding: 2em;
+}
+
+#work .container{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-align: center;
+  font-size: 125%;
+  flex-wrap: wrap;
+}
+#work .card{
+  flex-grow: 1;
+  padding: 1em;
+  margin-left: .5em;
+  width: 33%;
+  height: auto;
+  margin-bottom: auto;
+}
+
+.cardTitle{
+  font-size: 150%;
+}
+
+#work h2{
+  display: inline-flex;
+  text-align: center;
 }
 
 .typing, h1{
@@ -111,7 +152,7 @@ h1{
 }
 
 h2{
-  display: inline;
+  display: flex;
 }
 
 .sectionTitle{
