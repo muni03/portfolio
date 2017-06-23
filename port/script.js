@@ -12,5 +12,15 @@ $(document).ready(function(){
       loop: true,
       deleteDelay: 2000,
       loopDelay: 2000
-  })
+  });
+
+  $("a").click(function(){
+    $("#burgerMenu").hide();
+  });
+
+  $("#arrow").click(function(){
+        document.getElementById('about').scrollIntoView({block: 'end',  behaviour: 'smooth'});
+
+  });
+
 });
