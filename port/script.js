@@ -6,7 +6,7 @@ $(document).ready(function(){
   });
 
   $(".typing").typeIt({
-      strings:['websites.','web applications.','landing pages.'],
+      strings:['websites.','web applications.','landing pages.','meaningful experiences.'],
       speed: 90,
       breakLines: false,
       loop: true,
