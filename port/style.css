@@ -44,7 +44,8 @@ h2{
   text-align: center;
   background-color: rgba(55,58,55,.5);
   height: 3%;
-  margin-left: -13%;
+  left: 0;
+  right: 0;
 }
 
 #intro a{
@@ -78,7 +79,7 @@ li{
 h1{
   text-align: center;
   color: white;
-  margin-top: 3em;
+  margin-top: 1em;
   text-shadow: 10px 10px 10px black;
 }
 
@@ -119,6 +120,8 @@ h1{
   position: absolute;
   bottom: 0;
   color: rgba(255,255,255,.3);
+  left: 0;
+  right: 0;
 }
 
 #about{
