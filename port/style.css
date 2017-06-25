@@ -11,24 +11,32 @@ body{
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 740px){
   #topNav,#burgerMenu{
     visibility: hidden;
   }
   p{
     font-size: .8em;
   }
+  img{
+    width: 5em;
+    height: 4em;
+  }
 }
 
-@media screen and (min-width: 651px){
+@media screen and (min-width: 741px){
   #burger,#burgerMenu{
     visibility: hidden;
+  }
+  img{
+    width: 20em;
+    height: 15em;
   }
 }
 
 img{
   border-radius: 5%;
-  border: .5em solid #334238;
+  border: .3em solid #334238;
   display: flex;
   text-align: center;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6), 0 8px 10px 0 rgba(0, 0, 0, 0.69);
@@ -126,7 +134,8 @@ h1{
 #about{
   background-color: #334238;
   clear: both;
-  padding: 5em 0;
+  padding-top: 1.5em;
+  padding-bottom: 3em;
 }
 
 #about p{
@@ -193,8 +202,12 @@ h1{
   width: 33%;
   max-height: 40%;
   max-width: 40%;
-  margin-bottom: auto;
 }
+
+#work .sectionTitle{
+  padding: 1em;
+}
+
 
 .cardTitle{
   font-size: 150%;
